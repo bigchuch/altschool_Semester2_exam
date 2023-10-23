@@ -1,0 +1,5 @@
+---
+- hosts: web01
+  tasks:
+    - name: Run a script
+      script: /home/vagrant/devops/deploy.sh
