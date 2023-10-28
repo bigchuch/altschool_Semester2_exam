@@ -54,6 +54,7 @@ echo "Cloning Laravel project..."
 cd /var/www/html
 sudo rm index.html
 sudo chown -R ubuntu:ubuntu .
+sudo chown -R vagrant:vagrant .
 sudo git clone https://github.com/laravel/laravel.git 
 cd laravel
 composer install
